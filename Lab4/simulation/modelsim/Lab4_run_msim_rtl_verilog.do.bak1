@@ -1,0 +1,29 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+D:/QuartusCode/Lab4 {D:/QuartusCode/Lab4/Lab4.v}
+vlog -vlog01compat -work work +incdir+D:/QuartusCode/Lab4 {D:/QuartusCode/Lab4/LED.v}
+vlog -vlog01compat -work work +incdir+D:/QuartusCode/Lab4/DW8051/DW8051 {D:/QuartusCode/Lab4/DW8051/DW8051/DW8051_parameter.v}
+vlog -vlog01compat -work work +incdir+D:/QuartusCode/Lab4/DW8051 {D:/QuartusCode/Lab4/DW8051/ram.v}
+vlog -vlog01compat -work work +incdir+D:/QuartusCode/Lab4/DW8051 {D:/QuartusCode/Lab4/DW8051/rom.v}
+vlog -vlog01compat -work work +incdir+D:/QuartusCode/Lab4/DW8051 {D:/QuartusCode/Lab4/DW8051/DW8051_alu.v}
+vlog -vlog01compat -work work +incdir+D:/QuartusCode/Lab4/DW8051 {D:/QuartusCode/Lab4/DW8051/DW8051_biu.v}
+vlog -vlog01compat -work work +incdir+D:/QuartusCode/Lab4/DW8051 {D:/QuartusCode/Lab4/DW8051/DW8051_control.v}
+vlog -vlog01compat -work work +incdir+D:/QuartusCode/Lab4/DW8051 {D:/QuartusCode/Lab4/DW8051/DW8051_core.v}
+vlog -vlog01compat -work work +incdir+D:/QuartusCode/Lab4/DW8051 {D:/QuartusCode/Lab4/DW8051/DW8051_cpu.v}
+vlog -vlog01compat -work work +incdir+D:/QuartusCode/Lab4/DW8051 {D:/QuartusCode/Lab4/DW8051/DW8051_intr_0.v}
+vlog -vlog01compat -work work +incdir+D:/QuartusCode/Lab4/DW8051 {D:/QuartusCode/Lab4/DW8051/DW8051_intr_1.v}
+vlog -vlog01compat -work work +incdir+D:/QuartusCode/Lab4/DW8051 {D:/QuartusCode/Lab4/DW8051/DW8051_main_regs.v}
+vlog -vlog01compat -work work +incdir+D:/QuartusCode/Lab4/DW8051 {D:/QuartusCode/Lab4/DW8051/DW8051_op_decoder.v}
+vlog -vlog01compat -work work +incdir+D:/QuartusCode/Lab4/DW8051 {D:/QuartusCode/Lab4/DW8051/DW8051_serial.v}
+vlog -vlog01compat -work work +incdir+D:/QuartusCode/Lab4/DW8051 {D:/QuartusCode/Lab4/DW8051/DW8051_shftreg.v}
+vlog -vlog01compat -work work +incdir+D:/QuartusCode/Lab4/DW8051 {D:/QuartusCode/Lab4/DW8051/DW8051_timer.v}
+vlog -vlog01compat -work work +incdir+D:/QuartusCode/Lab4/DW8051 {D:/QuartusCode/Lab4/DW8051/DW8051_timer_ctr.v}
+vlog -vlog01compat -work work +incdir+D:/QuartusCode/Lab4/DW8051 {D:/QuartusCode/Lab4/DW8051/DW8051_timer2.v}
+vlog -vlog01compat -work work +incdir+D:/QuartusCode/Lab4/DW8051 {D:/QuartusCode/Lab4/DW8051/DW8051_u_ctr_clr.v}
+vlog -vlog01compat -work work +incdir+D:/QuartusCode/Lab4/DW8051 {D:/QuartusCode/Lab4/DW8051/DW8051_updn_ctr.v}
+

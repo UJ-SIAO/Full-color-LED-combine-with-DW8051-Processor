@@ -1,0 +1,76 @@
+`timescale 1ns / 10ps
+module LED_tb();
+parameter       clkx8 = 27.08;  // 48*64=3.072 MHZ,325/12=27.08
+reg clk;
+reg rst_n;
+reg [7:0]sfr_addr;
+reg [7:0]led_data_in;
+reg sfr_wr;
+reg sfr_rd;
+wire led_sfr_cs;
+wire [7:0]led_data_out;
+wire dout;
+
+LED		u0(
+			.clk(clk),
+			.rst_n(rst_n),
+			.sfr_addr(sfr_addr),
+			.led_sfr_cs(led_sfr_cs),
+			.led_data_in(led_data_in),
+			.led_data_out(led_data_out),
+			.sfr_wr(sfr_wr),
+			.sfr_rd(sfr_rd),
+			.dout(dout)
+			);
+
+
+always
+begin
+	#(clkx8/2) clk <= 1'b1 ;
+	#(clkx8/2) clk <= 1'b0 ;
+end
+
+
+initial 
+begin
+	rst_n=1;
+	sfr_rd=0;
+	#(clkx8*10);
+	rst_n=0;
+	#(clkx8*10);
+	rst_n=1;
+	#(clkx8*10);
+//-------
+	sfr_addr=8'hC3;
+	led_data_in=8'h00;
+	sfr_wr=1;
+	#25;
+	sfr_wr=0;
+      	#(clkx8*4);
+//-------
+	sfr_addr=8'hC4;
+	led_data_in=8'hFF;
+	sfr_wr=1;
+	#25;
+	sfr_wr=0;
+      	#(clkx8*4);
+//-------
+	sfr_addr=8'hC5;
+	led_data_in=8'h00;
+	sfr_wr=1;
+	#25;
+	sfr_wr=0;
+      	#(clkx8*4);
+//-------
+	sfr_addr=8'hC2;
+	led_data_in=8'b00010110;
+	sfr_wr=1;
+	#25
+	sfr_wr=0;
+      	#(clkx8*1000)
+
+$stop;
+end
+
+endmodule
+

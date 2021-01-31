@@ -1,0 +1,3 @@
+Warning (10268): Verilog HDL information at debounce.v(21): always construct contains both blocking and non-blocking assignments File: D:/QuartusCode/Lab4/debounce.v Line: 21
+Warning (10268): Verilog HDL information at DW01_addsub.v(56): always construct contains both blocking and non-blocking assignments File: D:/QuartusCode/Lab4/DW8051/DW01_addsub.v Line: 56
+Warning (10268): Verilog HDL information at DW8051_control.v(495): always construct contains both blocking and non-blocking assignments File: D:/QuartusCode/Lab4/DW8051/DW8051_control.v Line: 495

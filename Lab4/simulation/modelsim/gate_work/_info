@@ -1,0 +1,78 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/QuartusCode/Lab4/simulation/modelsim
+vhard_block
+Z1 !s110 1592310948
+!i10b 1
+!s100 b>0N6:LCSHP6_[Hf@S6bf3
+Ia@L9e[iZzH64kT;n;aon72
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1592310935
+Z4 8Lab4.vo
+Z5 FLab4.vo
+L0 73690
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1592310948.000000
+Z8 !s107 Lab4.vo|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|Lab4.vo|
+!i113 1
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work +incdir+.
+Z12 tCvgOpt 0
+vLab4_tb
+!s110 1592310949
+!i10b 1
+!s100 Qj@aEQQ3chQZVTF``CZnC3
+InYH=glGmUn0Uk[D?HzMEB3
+R2
+R0
+w1591886234
+8D:/QuartusCode/Lab4/simulation/modelsim/Lab4_tb.v
+FD:/QuartusCode/Lab4/simulation/modelsim/Lab4_tb.v
+L0 2
+R6
+r1
+!s85 0
+31
+!s108 1592310949.000000
+!s107 D:/QuartusCode/Lab4/simulation/modelsim/Lab4_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/QuartusCode/Lab4/simulation/modelsim|D:/QuartusCode/Lab4/simulation/modelsim/Lab4_tb.v|
+!i113 1
+R10
+!s92 -vlog01compat -work work +incdir+D:/QuartusCode/Lab4/simulation/modelsim
+R12
+n@lab4_tb
+vTop8051
+R1
+!i10b 1
+!s100 WfMgV37bXgiFD<HokfhEJ1
+Ia<a;iaLUBHZoPmFNH>EDS2
+R2
+R0
+R3
+R4
+R5
+L0 31
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@top8051

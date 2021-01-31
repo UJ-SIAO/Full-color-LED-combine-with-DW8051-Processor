@@ -1,0 +1,340 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do Lab4_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/QuartusCode/Lab4 {D:/QuartusCode/Lab4/Key.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:05:45 on Jun 23,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/QuartusCode/Lab4" D:/QuartusCode/Lab4/Key.v 
+# -- Compiling module Key
+# 
+# Top level modules:
+# 	Key
+# End time: 23:05:45 on Jun 23,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/QuartusCode/Lab4 {D:/QuartusCode/Lab4/edge_detect.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:05:45 on Jun 23,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/QuartusCode/Lab4" D:/QuartusCode/Lab4/edge_detect.v 
+# -- Compiling module edge_detect
+# 
+# Top level modules:
+# 	edge_detect
+# End time: 23:05:45 on Jun 23,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/QuartusCode/Lab4/DW8051/DW8051 {D:/QuartusCode/Lab4/DW8051/DW8051/DW8051_parameter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:05:45 on Jun 23,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/QuartusCode/Lab4/DW8051/DW8051" D:/QuartusCode/Lab4/DW8051/DW8051/DW8051_parameter.v 
+# End time: 23:05:45 on Jun 23,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/QuartusCode/Lab4/DW8051 {D:/QuartusCode/Lab4/DW8051/ram.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:05:45 on Jun 23,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/QuartusCode/Lab4/DW8051" D:/QuartusCode/Lab4/DW8051/ram.v 
+# -- Compiling module ram
+# 
+# Top level modules:
+# 	ram
+# End time: 23:05:45 on Jun 23,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/QuartusCode/Lab4/DW8051 {D:/QuartusCode/Lab4/DW8051/rom.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:05:45 on Jun 23,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/QuartusCode/Lab4/DW8051" D:/QuartusCode/Lab4/DW8051/rom.v 
+# -- Compiling module rom
+# 
+# Top level modules:
+# 	rom
+# End time: 23:05:45 on Jun 23,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/QuartusCode/Lab4 {D:/QuartusCode/Lab4/Top8051.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:05:45 on Jun 23,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/QuartusCode/Lab4" D:/QuartusCode/Lab4/Top8051.v 
+# -- Compiling module Top8051
+# 
+# Top level modules:
+# 	Top8051
+# End time: 23:05:45 on Jun 23,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/QuartusCode/Lab4 {D:/QuartusCode/Lab4/LED_v2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:05:45 on Jun 23,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/QuartusCode/Lab4" D:/QuartusCode/Lab4/LED_v2.v 
+# -- Compiling module LED_v2
+# 
+# Top level modules:
+# 	LED_v2
+# End time: 23:05:46 on Jun 23,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/QuartusCode/Lab4/DW8051 {D:/QuartusCode/Lab4/DW8051/DW8051_alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:05:46 on Jun 23,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/QuartusCode/Lab4/DW8051" D:/QuartusCode/Lab4/DW8051/DW8051_alu.v 
+# -- Compiling module DW8051_alu
+# 
+# Top level modules:
+# 	DW8051_alu
+# End time: 23:05:46 on Jun 23,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/QuartusCode/Lab4/DW8051 {D:/QuartusCode/Lab4/DW8051/DW8051_biu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:05:46 on Jun 23,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/QuartusCode/Lab4/DW8051" D:/QuartusCode/Lab4/DW8051/DW8051_biu.v 
+# -- Compiling module DW8051_biu
+# 
+# Top level modules:
+# 	DW8051_biu
+# End time: 23:05:46 on Jun 23,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/QuartusCode/Lab4/DW8051 {D:/QuartusCode/Lab4/DW8051/DW8051_control.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:05:46 on Jun 23,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/QuartusCode/Lab4/DW8051" D:/QuartusCode/Lab4/DW8051/DW8051_control.v 
+# -- Compiling module DW8051_control
+# 
+# Top level modules:
+# 	DW8051_control
+# End time: 23:05:46 on Jun 23,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/QuartusCode/Lab4/DW8051 {D:/QuartusCode/Lab4/DW8051/DW8051_core.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:05:46 on Jun 23,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/QuartusCode/Lab4/DW8051" D:/QuartusCode/Lab4/DW8051/DW8051_core.v 
+# -- Compiling module DW8051_core
+# 
+# Top level modules:
+# 	DW8051_core
+# End time: 23:05:46 on Jun 23,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/QuartusCode/Lab4/DW8051 {D:/QuartusCode/Lab4/DW8051/DW8051_cpu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:05:46 on Jun 23,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/QuartusCode/Lab4/DW8051" D:/QuartusCode/Lab4/DW8051/DW8051_cpu.v 
+# -- Compiling module DW8051_cpu
+# 
+# Top level modules:
+# 	DW8051_cpu
+# End time: 23:05:46 on Jun 23,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/QuartusCode/Lab4/DW8051 {D:/QuartusCode/Lab4/DW8051/DW8051_intr_0.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:05:46 on Jun 23,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/QuartusCode/Lab4/DW8051" D:/QuartusCode/Lab4/DW8051/DW8051_intr_0.v 
+# -- Compiling module DW8051_intr_0
+# 
+# Top level modules:
+# 	DW8051_intr_0
+# End time: 23:05:47 on Jun 23,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/QuartusCode/Lab4/DW8051 {D:/QuartusCode/Lab4/DW8051/DW8051_intr_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:05:47 on Jun 23,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/QuartusCode/Lab4/DW8051" D:/QuartusCode/Lab4/DW8051/DW8051_intr_1.v 
+# -- Compiling module DW8051_intr_1
+# 
+# Top level modules:
+# 	DW8051_intr_1
+# End time: 23:05:47 on Jun 23,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/QuartusCode/Lab4/DW8051 {D:/QuartusCode/Lab4/DW8051/DW8051_main_regs.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:05:47 on Jun 23,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/QuartusCode/Lab4/DW8051" D:/QuartusCode/Lab4/DW8051/DW8051_main_regs.v 
+# -- Compiling module DW8051_main_regs
+# 
+# Top level modules:
+# 	DW8051_main_regs
+# End time: 23:05:47 on Jun 23,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/QuartusCode/Lab4/DW8051 {D:/QuartusCode/Lab4/DW8051/DW8051_op_decoder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:05:47 on Jun 23,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/QuartusCode/Lab4/DW8051" D:/QuartusCode/Lab4/DW8051/DW8051_op_decoder.v 
+# -- Compiling module DW8051_op_decoder
+# 
+# Top level modules:
+# 	DW8051_op_decoder
+# End time: 23:05:47 on Jun 23,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/QuartusCode/Lab4/DW8051 {D:/QuartusCode/Lab4/DW8051/DW8051_serial.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:05:47 on Jun 23,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/QuartusCode/Lab4/DW8051" D:/QuartusCode/Lab4/DW8051/DW8051_serial.v 
+# -- Compiling module DW8051_serial
+# 
+# Top level modules:
+# 	DW8051_serial
+# End time: 23:05:47 on Jun 23,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/QuartusCode/Lab4/DW8051 {D:/QuartusCode/Lab4/DW8051/DW8051_shftreg.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:05:47 on Jun 23,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/QuartusCode/Lab4/DW8051" D:/QuartusCode/Lab4/DW8051/DW8051_shftreg.v 
+# -- Compiling module DW8051_shftreg
+# 
+# Top level modules:
+# 	DW8051_shftreg
+# End time: 23:05:47 on Jun 23,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/QuartusCode/Lab4/DW8051 {D:/QuartusCode/Lab4/DW8051/DW8051_timer.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:05:47 on Jun 23,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/QuartusCode/Lab4/DW8051" D:/QuartusCode/Lab4/DW8051/DW8051_timer.v 
+# -- Compiling module DW8051_timer
+# 
+# Top level modules:
+# 	DW8051_timer
+# End time: 23:05:48 on Jun 23,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/QuartusCode/Lab4/DW8051 {D:/QuartusCode/Lab4/DW8051/DW8051_timer_ctr.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:05:48 on Jun 23,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/QuartusCode/Lab4/DW8051" D:/QuartusCode/Lab4/DW8051/DW8051_timer_ctr.v 
+# -- Compiling module DW8051_timer_ctr
+# 
+# Top level modules:
+# 	DW8051_timer_ctr
+# End time: 23:05:48 on Jun 23,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/QuartusCode/Lab4/DW8051 {D:/QuartusCode/Lab4/DW8051/DW8051_timer2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:05:48 on Jun 23,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/QuartusCode/Lab4/DW8051" D:/QuartusCode/Lab4/DW8051/DW8051_timer2.v 
+# -- Compiling module DW8051_timer2
+# 
+# Top level modules:
+# 	DW8051_timer2
+# End time: 23:05:48 on Jun 23,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/QuartusCode/Lab4/DW8051 {D:/QuartusCode/Lab4/DW8051/DW8051_u_ctr_clr.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:05:48 on Jun 23,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/QuartusCode/Lab4/DW8051" D:/QuartusCode/Lab4/DW8051/DW8051_u_ctr_clr.v 
+# -- Compiling module DW8051_u_ctr_clr
+# 
+# Top level modules:
+# 	DW8051_u_ctr_clr
+# End time: 23:05:48 on Jun 23,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/QuartusCode/Lab4/DW8051 {D:/QuartusCode/Lab4/DW8051/DW8051_updn_ctr.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:05:48 on Jun 23,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/QuartusCode/Lab4/DW8051" D:/QuartusCode/Lab4/DW8051/DW8051_updn_ctr.v 
+# -- Compiling module DW8051_updn_ctr
+# 
+# Top level modules:
+# 	DW8051_updn_ctr
+# End time: 23:05:48 on Jun 23,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/QuartusCode/Lab4/simulation/modelsim {D:/QuartusCode/Lab4/simulation/modelsim/Lab4_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:05:48 on Jun 23,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/QuartusCode/Lab4/simulation/modelsim" D:/QuartusCode/Lab4/simulation/modelsim/Lab4_tb.v 
+# -- Compiling module Lab4_tb
+# 
+# Top level modules:
+# 	Lab4_tb
+# End time: 23:05:48 on Jun 23,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  Lab4_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" Lab4_tb 
+# Start time: 23:05:48 on Jun 23,2020
+# Loading work.Lab4_tb
+# Loading work.Top8051
+# Loading work.DW8051_core
+# Loading work.DW8051_cpu
+# Loading work.DW8051_biu
+# Loading work.DW8051_updn_ctr
+# Loading work.DW8051_alu
+# Loading work.DW8051_u_ctr_clr
+# Loading work.DW8051_op_decoder
+# Loading work.DW8051_main_regs
+# Loading work.DW8051_control
+# Loading work.DW8051_timer
+# Loading work.DW8051_timer_ctr
+# Loading work.DW8051_intr_0
+# Loading work.DW8051_intr_1
+# Loading work.DW8051_timer2
+# Loading work.DW8051_serial
+# Loading work.DW8051_shftreg
+# Loading work.rom
+# Loading altera_mf_ver.altsyncram
+# Loading work.ram
+# Loading work.LED_v2
+# Loading work.Key
+# Loading work.edge_detect
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3017) D:/QuartusCode/Lab4/simulation/modelsim/Lab4_tb.v(11): [TFMPC] - Too few port connections. Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab4_tb/u File: D:/QuartusCode/Lab4/Top8051.v
+# ** Warning: (vsim-3722) D:/QuartusCode/Lab4/simulation/modelsim/Lab4_tb.v(11): [TFMPC] - Missing connection for port 'led'.
+# ** Warning: (vsim-3015) D:/QuartusCode/Lab4/Top8051.v(60): [PCDPC] - Port size (16) does not match connection size (13) for port 'irom_addr'. The port definition is at: D:/QuartusCode/Lab4/DW8051/DW8051_core.v(103).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab4_tb/u/u0 File: D:/QuartusCode/Lab4/DW8051/DW8051_core.v
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+add wave -position insertpoint  \
+sim:/Lab4_tb/u/LED_u0/blue_data \
+sim:/Lab4_tb/u/LED_u0/data_temp \
+sim:/Lab4_tb/u/LED_u0/green_data \
+sim:/Lab4_tb/u/LED_u0/red_data
+add wave -position insertpoint  \
+sim:/Lab4_tb/u/sfr_addr \
+sim:/Lab4_tb/u/sfr_data_in \
+sim:/Lab4_tb/u/sfr_data_out \
+sim:/Lab4_tb/u/sfr_rd \
+sim:/Lab4_tb/u/sfr_wr
+restart
+# ** Warning: (vsim-3017) D:/QuartusCode/Lab4/simulation/modelsim/Lab4_tb.v(11): [TFMPC] - Too few port connections. Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab4_tb/u File: D:/QuartusCode/Lab4/Top8051.v
+# ** Warning: (vsim-3722) D:/QuartusCode/Lab4/simulation/modelsim/Lab4_tb.v(11): [TFMPC] - Missing connection for port 'led'.
+# ** Warning: (vsim-3015) D:/QuartusCode/Lab4/Top8051.v(60): [PCDPC] - Port size (16) does not match connection size (13) for port 'irom_addr'. The port definition is at: D:/QuartusCode/Lab4/DW8051/DW8051_core.v(103).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab4_tb/u/u0 File: D:/QuartusCode/Lab4/DW8051/DW8051_core.v
+run -all
+vlog -reportprogress 300 -work work D:/QuartusCode/Lab4/LED_v2.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:08:08 on Jun 23,2020
+# vlog -reportprogress 300 -work work D:/QuartusCode/Lab4/LED_v2.v 
+# -- Compiling module LED_v2
+# 
+# Top level modules:
+# 	LED_v2
+# End time: 23:08:08 on Jun 23,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.LED_v2
+# ** Warning: (vsim-3017) D:/QuartusCode/Lab4/simulation/modelsim/Lab4_tb.v(11): [TFMPC] - Too few port connections. Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab4_tb/u File: D:/QuartusCode/Lab4/Top8051.v
+# ** Warning: (vsim-3722) D:/QuartusCode/Lab4/simulation/modelsim/Lab4_tb.v(11): [TFMPC] - Missing connection for port 'led'.
+# ** Warning: (vsim-3015) D:/QuartusCode/Lab4/Top8051.v(60): [PCDPC] - Port size (16) does not match connection size (13) for port 'irom_addr'. The port definition is at: D:/QuartusCode/Lab4/DW8051/DW8051_core.v(103).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab4_tb/u/u0 File: D:/QuartusCode/Lab4/DW8051/DW8051_core.v
+run -all
+run -all
+add wave -position insertpoint  \
+sim:/Lab4_tb/u/LED_u0/led_temp
+restart
+# ** Warning: (vsim-3017) D:/QuartusCode/Lab4/simulation/modelsim/Lab4_tb.v(11): [TFMPC] - Too few port connections. Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab4_tb/u File: D:/QuartusCode/Lab4/Top8051.v
+# ** Warning: (vsim-3722) D:/QuartusCode/Lab4/simulation/modelsim/Lab4_tb.v(11): [TFMPC] - Missing connection for port 'led'.
+# ** Warning: (vsim-3015) D:/QuartusCode/Lab4/Top8051.v(60): [PCDPC] - Port size (16) does not match connection size (13) for port 'irom_addr'. The port definition is at: D:/QuartusCode/Lab4/DW8051/DW8051_core.v(103).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab4_tb/u/u0 File: D:/QuartusCode/Lab4/DW8051/DW8051_core.v
+run -all
+# End time: 23:16:02 on Jun 23,2020, Elapsed time: 0:10:14
+# Errors: 0, Warnings: 12
